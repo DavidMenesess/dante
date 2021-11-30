@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: radial-gradient(#B8BABC , #6F6F6F)
+}
+
+.contenedor{
+    width: 600px;
+    height: 650px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 2px 4px 15px 0 #000;
+    border-radius: 14px;
+}
+
+.nombre_mascota{
+    text-align: center;
+    padding: 30px;
+    color: #212F3D;
+}
+
+.imagen_mascota{
+    width: 600px;
+    height: 320px;
+}
+
+table{
+    margin: 35px auto;
+    text-align: center;
+}
+
+td{
+    padding: 10px;
+    font-weight: bold;
+}
+
+.btn_contactar{
+
+    padding: 10px 8px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 6px;
+    margin-top: 25px;
+    margin-left: 208px;
+    transition: 0.5s;
+}
+
+.btn_contactar:hover{
+    background-color: #6F6F6F;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+@media (max-width: 576px) { 
+
+    .contenedor{
+        width: 380px;
+        height: 680px;
+        margin: 50px auto;
+        background-color: #fff;
+        box-shadow: 2px 4px 15px 0 #000;
+        border-radius: 14px;
+    }
+    
+    .nombre_mascota{
+        text-align: center;
+        padding: 20px;
+        color: #212F3D;
+    }
+    
+    .imagen_mascota{
+        width: 380px;
+        height: 320px;
+    }
+    
+    table{
+        margin: 35px auto;
+        text-align: center;
+    }
+    
+    td{
+        padding: 5px;
+        font-weight: bold;
+    }
+    
+    .btn_contactar{
+    
+        padding: 8px 6px;
+        background-color: #fff;
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+        border: 1px solid #000;
+        border-radius: 6px;
+        margin-top: 25px;
+        margin-left: 101px;
+        transition: 0.5s;
+    }
+    
+    .btn_contactar:hover{
+        background-color: #6F6F6F;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+    
+
+ }
+
+
+@media (min-width: 768px) {
+
+
+
+ }
