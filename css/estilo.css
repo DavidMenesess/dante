@@ -29,14 +29,26 @@ body{
     height: 320px;
 }
 
+.datos_mascota_contenedor{
+    width: 590px ;
+}
+
 table{
     margin: 35px auto;
     text-align: center;
+    border: 1px solid #000;
 }
 
-td{
-    padding: 10px;
+.cabecera_tabla{
+    padding: 7px;
     font-weight: bold;
+    border: 1px solid #000;
+}
+
+.contenido_tabla{
+    padding: 7px;
+    border: 1px solid #000;
+    font-weight: lighter;
 }
 
 .btn_contactar{
@@ -64,7 +76,7 @@ td{
 @media (max-width: 576px) { 
 
     .contenedor{
-        width: 380px;
+        width: 390px;
         height: 680px;
         margin: 50px auto;
         background-color: #fff;
@@ -79,18 +91,31 @@ td{
     }
     
     .imagen_mascota{
-        width: 380px;
+        width: 390px;
         height: 320px;
+    }
+
+    .datos_mascota_contenedor{
+        width: 290px ;
+        margin-left: 5px;
     }
     
     table{
         margin: 35px auto;
         text-align: center;
+        border: 1px solid #000;
     }
     
-    td{
+    .cabecera_tabla{
         padding: 5px;
         font-weight: bold;
+        border: 1px solid #000;
+    }
+
+    .contenido_tabla{
+        padding: 5px;
+        border: 1px solid #000;
+        font-weight: lighter;
     }
     
     .btn_contactar{
