@@ -76,7 +76,7 @@ table{
 @media (max-width: 576px) { 
 
     .contenedor{
-        width: 390px;
+        width: 380px;
         height: 680px;
         margin: 50px auto;
         background-color: #fff;
@@ -91,7 +91,7 @@ table{
     }
     
     .imagen_mascota{
-        width: 390px;
+        width: 380px;
         height: 320px;
     }
 
@@ -113,7 +113,7 @@ table{
     }
 
     .contenido_tabla{
-        padding: 5px;
+        padding: 0px;
         border: 1px solid #000;
         font-weight: lighter;
     }
